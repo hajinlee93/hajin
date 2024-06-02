@@ -2,7 +2,6 @@
 
 import { ChangeEvent, FormEvent, useState } from "react";
 import { ContactModalData } from "./ContactModal";
-import { sendContactEmail } from "@/service/contact";
 import dynamic from "next/dynamic";
 
 type Form = {
