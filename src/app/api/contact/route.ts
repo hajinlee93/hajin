@@ -1,5 +1,4 @@
 import * as yup from "yup";
-import { sendEmail } from "@/service/email";
 
 const bodySchema = yup.object().shape({
   from: yup.string().email().required(),
